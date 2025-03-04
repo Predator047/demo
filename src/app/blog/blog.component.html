@@ -1,0 +1,10 @@
+<div class="blog-card">
+    <div class="blog-image">
+      <img [src]="image" [alt]="title">
+    </div>
+    <div class="blog-content">
+      <div class="date">{{ formatDate(publishedDate) }}</div>
+      <h3 class="blog-title">{{ title }}</h3>
+      <p class="blog-description">{{ description }}</p>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+<div class="food-safety-container">
+    <div class="header">
+      <h2 class="title">Food Safety Blogs</h2>
+      <a routerLink="/dashboard/blogs" class="view-all">View All</a>
+    </div>
+  
+    <div class="blog-cards-container" *ngIf="!isLoading && !error" ngSkipHydration>
+      <div class="blog-card-wrapper" *ngFor="let blog of displayedBlogs">
+        <app-blog 
+          [image]="blog.image"
+          [publishedDate]="blog.publishedDate"
+          [title]="blog.title"
+          [description]="blog.description"
+        ></app-blog>
+      </div>
+    </div>
+  
+    <div class="loading" *ngIf="isLoading">
+      Loading blogs...
+    </div>
+  
+    <div class="error" *ngIf="error">
+      {{ error }}
+    </div>
+  </div>

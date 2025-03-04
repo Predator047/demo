@@ -1,0 +1,32 @@
+{
+    "blogs": [
+      {
+        "id": 1,
+        "title": "Essential Food Handling Practices for Restaurants",
+        "description": "Proper food handling is critical for preventing foodborne illnesses. This blog explores the key practices that every restaurant should implement, including temperature control, cross-contamination prevention, and proper storage techniques. We also discuss the latest FDA guidelines and how they impact commercial kitchens.",
+        "image": "assets/images/food-handling.jpg",
+        "publishedDate": "2024-12-15"
+      },
+      {
+        "id": 2,
+        "title": "Understanding Food Allergen Management",
+        "description": "Food allergies affect millions of people worldwide, and proper allergen management is essential for food service establishments. Learn about the most common food allergens, how to prevent cross-contact, and the importance of clear labeling and staff training to ensure customer safety.",
+        "image": "assets/images/allergen-management.jpg",
+        "publishedDate": "2024-11-28"
+      },
+      {
+        "id": 3,
+        "title": "HACCP Principles for Small Food Businesses",
+        "description": "Hazard Analysis Critical Control Point (HACCP) systems are vital for food safety management. This guide breaks down the seven HACCP principles in simple terms for small food businesses, providing practical implementation steps and examples of successful HACCP plans.",
+        "image": "assets/images/haccp-principles.jpg",
+        "publishedDate": "2024-10-22"
+      },
+      {
+        "id": 4,
+        "title": "Food Safety in the Digital Age: Technology Solutions",
+        "description": "Technology is revolutionizing food safety management through IoT sensors, blockchain traceability, and digital monitoring systems. Discover how these innovations are making food safety more efficient, reliable, and transparent across the entire supply chain.",
+        "image": "assets/images/digital-food-safety.jpg",
+        "publishedDate": "2024-09-05"
+      }
+    ]
+  }
